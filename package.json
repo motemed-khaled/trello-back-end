@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc src",
     "start": "node dist/server.js",
     "start:dev": "SET NODE_ENV=production&& nodemon src/server.ts",
     "start:prod": "SET NODE_ENV=production&& nodemon src/server.ts"
