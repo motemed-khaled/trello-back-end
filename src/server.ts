@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken";
 dotenv.config();
 
 import { dbConnection } from "./config/dbConnection";
-import { mountRoutes } from "../src/routes/mount.routes";
+import { mountRoutes } from "./routes/mount.routes";
 import { globalError } from "./middleWares/globalError.middleware";
 import { SocketEventEnum } from "./types/socket.enum";
 import { joinBoard, leaveBoard , boardUpdate , deleteBoard } from "./controllers/board.controller";
